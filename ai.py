@@ -3,6 +3,8 @@
 from openai import OpenAI
 
 def get_personality_analysis(face_desc: str) -> str:
+    
+    # doc string
     """
     인자로 얼굴 설멸을 받아, OpenAI LLM API를 활용하여 성겨고하 미래를 분석합니다.
     """
